@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.head{
+  background-color: cadetblue;
+  font-size: large;
+}
+.head ul{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#page{
+  background-color: slategray;
+  display: block;
+  height: 1000px;
+  font-size: 200px;
+  padding: 300px;
+  text-align: center;
+}
+
+.foot{
+  padding: 20px;
+  background-color: cadetblue;
+}
+
+.foot .list{
+  display: flex;
+  justify-content: space-evenly;
+}
+.foot .list .li{
+  font-size: large;
+  font-weight: bold;
+}
+.foot .list h4{
+  font-size: large;
+  font-weight: bold;
+}
+
+#cpr{
+  text-align: center;
+  font-weight: bold;
+}
+#contactlist li{
+  list-style-type: circle;
+}
+.pagetext{
+  text-align: center;
+  display: block;
+  padding: 200px;
+  background-color: rgb(103, 53, 18);
+}
+
+.pagetext h2{
+  font-size: large;
+  font-weight: bold;
+}

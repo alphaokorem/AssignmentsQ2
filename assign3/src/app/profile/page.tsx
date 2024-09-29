@@ -1,4 +1,4 @@
-import Header from "/AssignmentsQ2/assign3/src/app/components/Header";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 export default function Home() {

@@ -12,9 +12,16 @@
   padding: 20px;
   font-weight: bold;
 }
+.head ul li{
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+.head ul li:hover{
+  background-color: rgb(64, 137, 140);
+}
 
 #page{
-  background-color: slategray;
   display: block;
   height: 1000px;
   font-size: 200px;
@@ -26,7 +33,6 @@
   padding: 20px;
   background-color: cadetblue;
 }
-
 .foot .list{
   display: flex;
   justify-content: space-evenly;
@@ -34,6 +40,12 @@
 .foot .list .li{
   font-size: large;
   font-weight: bold;
+  width: 180px;
+  text-align: center;
+  border-radius: 10px;
+}
+.foot .list .li:hover{
+  background-color: rgb(64, 137, 140);
 }
 .foot .list h4{
   font-size: large;
@@ -47,14 +59,41 @@
 #contactlist li{
   list-style-type: circle;
 }
+
 .pagetext{
   text-align: center;
   display: block;
   padding: 200px;
   background-color: rgb(103, 53, 18);
 }
-
 .pagetext h2{
   font-size: large;
   font-weight: bold;
+}
+
+
+
+#prof{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border: 6px solid rgb(137, 116, 120);
+  border-radius: 50px;
+  padding: 10px;
+  background-color: rgb(29, 63, 81);
+  box-shadow: 0px 0px 30px;
+  text-align: center;
+  font-size: x-large;
+}
+#pic{
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px;
+  border: 6px solid rgb(137, 116, 120);
+  margin: auto;
+  margin-bottom: 40px;
+}
+body{
+  background-color: rgb(53, 12, 96);
 }

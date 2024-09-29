@@ -12,6 +12,7 @@ export default function Header() {
                 <li>Contact Us</li></Link>
                 <Link href={"jobs"}>
                 <li>Jobs</li></Link>
+                <Link href={"profile"}><li>Profile</li></Link>
             </ul>
         </div>
     );

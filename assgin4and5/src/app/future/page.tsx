@@ -1,6 +1,5 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Image from "next/image";
 
 export default function Future() {
   return (
@@ -11,7 +10,7 @@ export default function Future() {
       <div className="blog">
         <h1 className="center">The Future Of Remote Work</h1>
         <br />
-        <Image className="pic" src="/remote.jpeg" alt="" />
+        <img className="pic" src="/remote.jpeg" alt="" />
         <br />
         <p>
           Remote work, once a niche option, has rapidly become a mainstream mode

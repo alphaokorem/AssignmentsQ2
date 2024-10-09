@@ -235,6 +235,46 @@ h2{
   color: #33adcb;
 }
 
-
-
-
+@media only screen and (max-width: 430px){
+  #closing{
+    margin: 10%;
+  }
+  #ter{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .blog{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar #icon{
+    margin-right: 25%;
+  }
+  .navbar li{
+    margin-right: 0%;
+  }
+  #p1{
+    margin: 5%;
+  }
+  .moveable{
+    flex-direction: column;
+    margin: 10px;
+  }
+  .moveable div{
+    text-align: center;
+    width: 380px;
+    border-radius: 15px;
+    height: 400px;
+    padding: 15px;
+    margin: auto;
+  }
+  #contact{
+    width: 100;
+    flex-direction: column;
+    align-items: center;
+  }
+  #contact div{
+    width: 70%;
+    margin-bottom: 40px;
+  }
+}

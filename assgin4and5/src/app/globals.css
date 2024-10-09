@@ -248,7 +248,7 @@ h2{
     margin-right: 10px;
   }
   .navbar #icon{
-    margin-right: 25%;
+    margin-right: 20%;
   }
   .navbar li{
     margin-right: 0%;
@@ -262,7 +262,7 @@ h2{
   }
   .moveable div{
     text-align: center;
-    width: 380px;
+    width: 320px;
     border-radius: 15px;
     height: 400px;
     padding: 15px;
@@ -276,5 +276,8 @@ h2{
   #contact div{
     width: 70%;
     margin-bottom: 40px;
+  }
+  .cards{
+    width: 320px;
   }
 }

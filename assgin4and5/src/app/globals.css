@@ -248,10 +248,11 @@ h2{
     margin-right: 10px;
   }
   .navbar #icon{
-    margin-left: 0%;
+    margin-right: 20%;
   }
   .navbar li{
     margin-right: 0%;
+    width: max-content;
   }
   #p1{
     margin: 5%;

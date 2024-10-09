@@ -14,11 +14,11 @@ export default function Coffee() {
         <Image className="pic" src="/coffee.webp" alt="" />
         <br />
         <p>
-          Coffee is more than just a beverage; for many, it's a ritual, a
+          Coffee is more than just a beverage; for many, it&apos;s a ritual, a
           passion, and even a way of life. From the first sip in the morning to
           the indulgent afternoon pick-me-up, coffee brings people together and
           fuels productivity. For coffee lovers, every cup tells a story,
-          whether it's brewed from an artisanal blend or a classic espresso. As
+          whether it&apos;s brewed from an artisanal blend or a classic espresso. As
           the global appreciation for coffee continues to grow, the future holds
           exciting possibilities for both the coffee industry and the community
           of enthusiasts who cherish it.
@@ -83,7 +83,7 @@ export default function Coffee() {
           changing values and tastes of its passionate community. From
           sustainability and innovation to health trends and culture, the future
           of coffee promises endless possibilities for those who truly love
-          their cup of joe. Whether you're savoring a simple black coffee or
+          their cup of joe. Whether you&apos;re savoring a simple black coffee or
           indulging in a complex specialty brew, coffee will continue to inspire
           connection, creativity, and joy for coffee lovers around the world.
         </p>

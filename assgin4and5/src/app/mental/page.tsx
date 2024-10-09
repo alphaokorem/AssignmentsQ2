@@ -28,13 +28,13 @@ export default function Mental() {
           people, anxiety can be overwhelming, affecting their ability to
           function in day-to-day life. Symptoms can include persistent worry,
           restlessness, difficulty concentrating, and even physical
-          manifestations like rapid heartbeat and sweating. It's essential to
+          manifestations like rapid heartbeat and sweating. It&apos;s essential to
           recognize that anxiety disorders are treatable, and those suffering
           from them should not hesitate to seek professional help.
         </p>
         <p>
           Depression is another prevalent mental health issue that can impact
-          anyone, regardless of age, gender, or background. It's not just about
+          anyone, regardless of age, gender, or background. It&apos;s not just about
           feeling sad; depression is a persistent condition that affects how a
           person feels, thinks, and handles daily activities. People suffering
           from depression often experience feelings of hopelessness, fatigue,

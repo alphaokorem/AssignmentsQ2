@@ -30,9 +30,9 @@ export default function Creepy() {
           When I logged in, there was nothing particularly unusual about it at
           first—just a creepy atmosphere, low ambient sounds, flickering lights,
           the usual tricks. But then, strange things started happening. At
-          first, it was subtle. The whispers came, not from the game's audio but
+          first, it was subtle. The whispers came, not from the game&apos;s audio but
           through my headset, barely audible, like voices just out of reach,
-          murmuring in a language I couldn't quite grasp.
+          murmuring in a language I couldn&apos;t quite grasp.
         </p>
 
         <p>But after I logged off, the whispers followed me.</p>
@@ -42,7 +42,7 @@ export default function Creepy() {
           grew louder as the night went on. I thought maybe it was just the
           aftereffect of spending too long staring at the screen, my mind
           playing tricks on me. But as I sat there in my darkened room, I
-          realized these weren't just sounds from the game. They were too real,
+          realized these weren&apos;t just sounds from the game. They were too real,
           too close.
         </p>
 
@@ -51,17 +51,17 @@ export default function Creepy() {
           computer monitor casting eerie shadows on the walls.
         </p>
 
-        <p>That's when I noticed it.</p>
+        <p>That&apos;s when I noticed it.</p>
 
         <p>My reflection in the screen began to change.</p>
 
         <p>
           At first, I thought it was a trick of the light—maybe the residual
-          graphics of the game still burning into my eyes. But it wasn't that.
-          The reflection wasn't me anymore, not exactly. The eyes were darker,
+          graphics of the game still burning into my eyes. But it wasn&apos;t that.
+          The reflection wasn&apos;t me anymore, not exactly. The eyes were darker,
           hollowed out like something inhuman stared back. Its face was twisted,
           a grotesque parody of my own features, as though the monitor itself
-          had become a mirror to something else, something that wasn't supposed
+          had become a mirror to something else, something that wasn&apos;t supposed
           to exist.
         </p>
 
@@ -73,7 +73,7 @@ export default function Creepy() {
         <p>Staring back at me.</p>
 
         <p>
-          My own reflection blinked, but I didn't. It smiled, but I hadn't moved
+          My own reflection blinked, but I didn&apos;t. It smiled, but I hadn&apos;t moved
           a muscle.
         </p>
 
@@ -82,7 +82,7 @@ export default function Creepy() {
           trembling, and pressed it.
         </p>
 
-        <p> The reflection didn't leave.</p>
+        <p> The reflection didn&apos;t leave.</p>
 
         <p>
           The screen was off, the room plunged into darkness. Yet, I could still
@@ -92,13 +92,13 @@ export default function Creepy() {
           pounding in my chest.
         </p>
 
-        <p>I wasn't alone anymore.</p>
+        <p>I wasn&apos;t alone anymore.</p>
 
         <p>
           There was movement in the corner of my vision. Shapes, shadows that
           slithered along the edges of my room, creeping closer. The whispers
           became voices, distinct now, calling my name, telling me things I
-          couldn't understand but knew weren't meant for me to hear. The
+          couldn&apos;t understand but knew weren&apos;t meant for me to hear. The
           reflection... no, the thing that had become my reflection... it was
           closer now, pressing its face against the glass of the screen, its
           eyes wide and unblinking.
@@ -131,7 +131,7 @@ export default function Creepy() {
           Watching. Smiling. Waiting.
         </p>
 
-        <p>The whispers... they wouldn't stop. They wouldn't leave.</p>
+        <p>The whispers... they wouldn&apos;t stop. They wouldn&apos;t leave.</p>
 
         <p>And neither would it.</p>
       </div>

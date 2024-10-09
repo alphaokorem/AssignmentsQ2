@@ -9,9 +9,9 @@ export default function About_Page() {
       <h1 className="center">ABOUT US</h1>
       <p id="p1">
         Welcome to Blogermen, where ideas come to life, knowledge thrives, and
-        every story has a purpose. We are more than just a blog—we’re a
+        every story has a purpose. We are more than just a blog—we&apos;re a
         community of thinkers, creators, and readers united by the passion for
-        sharing fresh perspectives on everything that matters. Whether it’s tech
+        sharing fresh perspectives on everything that matters. Whether it&apos;s tech
         trends, lifestyle tips, or business insights, Blogermen is your go-to
         platform for discovering engaging, informative content.
       </p>
@@ -45,11 +45,11 @@ export default function About_Page() {
         <div id="div3">
           <h1 className="center">Our Promise to You</h1> <br />
           <p>
-            At Blogermen, it's not just about us—it's about you, our readers. We
+            At Blogermen, it&apos;s not just about us—it&apos;s about you, our readers. We
             are committed to providing valuable content that enriches your daily
             life, helps you make informed decisions, and sparks your curiosity.
             We write with you in mind, crafting stories and insights that are
-            relevant to your interests and needs. Whether you're looking to
+            relevant to your interests and needs. Whether you&apos;re looking to
             learn something new, get inspired, or simply stay informed, we
             promise to deliver.
           </p>
@@ -61,7 +61,7 @@ export default function About_Page() {
             creativity, and curiosity. Our tone is friendly, informative, and
             relatable because we believe learning should be enjoyable. We
             embrace diversity and innovation, and our content reflects the
-            dynamic world we live in. Whether you're here for serious insights
+            dynamic world we live in. Whether you&apos;re here for serious insights
             or light-hearted reads, Blogermen always has something new to offer.
           </p>
         </div>

@@ -14,16 +14,16 @@ export default function Hiking() {
         <Image className="pic" src="/hiking.jpeg" alt="" />
         <br />
         <p>
-          Hiking is more than just a form of physical exercise—it's an immersive
+          Hiking is more than just a form of physical exercise—it&apos;s an immersive
           experience that connects individuals with nature, offering a sense of
-          escape from the everyday hustle and bustle of life. Whether it's a
+          escape from the everyday hustle and bustle of life. Whether it&apos;s a
           walk through dense forests, along mountainous trails, or beside serene
           rivers, hiking provides both mental and physical health benefits that
           have drawn enthusiasts from all walks of life.
         </p>
         <p>
           One of the main appeals of hiking is its accessibility. From
-          beginner-friendly paths to challenging, rugged terrains, there's a
+          beginner-friendly paths to challenging, rugged terrains, there&apos;s a
           trail suitable for everyone. No special training is required to start,
           making it a hobby anyone can enjoy. With just a sturdy pair of shoes,
           some water, and a desire to explore, people can set out on adventures
@@ -51,9 +51,9 @@ export default function Hiking() {
           Another major aspect of hiking is the sense of accomplishment and
           adventure it brings. Every trail completed, every summit reached,
           gives hikers a deep sense of achievement. The unpredictable nature of
-          the outdoors—whether it's weather changes, wildlife sightings, or
+          the outdoors—whether it&apos;s weather changes, wildlife sightings, or
           discovering hidden viewpoints—adds to the thrill of the experience.
-          The challenge of navigating through unknown terrains and pushing one's
+          The challenge of navigating through unknown terrains and pushing one&apos;s
           limits makes hiking a deeply rewarding activity.
         </p>
         <p>
@@ -66,9 +66,9 @@ export default function Hiking() {
         </p>
         <p>
           In conclusion, hiking is a versatile activity that offers numerous
-          physical, mental, and emotional benefits. It's an easy way to
+          physical, mental, and emotional benefits. It&apos;s an easy way to
           disconnect from the fast-paced modern world and reconnect with the
-          natural environment. Whether you're seeking an adventure, a workout,
+          natural environment. Whether you&apos;re seeking an adventure, a workout,
           or simply a moment of peace, hiking provides an ideal escape into the
           wild. All you need is the curiosity to explore, and the world will
           reveal its hidden wonders along every trail.

@@ -70,7 +70,7 @@ export default function Terms() {
         <h2>6. Disclaimers</h2>
         <p>
           The content provided on Blogermen is for informational purposes only
-          and is provided "as is" without any representations or warranties,
+          and is provided &apos;as is&apos; without any representations or warranties,
           express or implied. We do not warrant that the content on the Website
           is accurate, complete, or current. Your use of the Website and
           reliance on any information provided is solely at your own risk.

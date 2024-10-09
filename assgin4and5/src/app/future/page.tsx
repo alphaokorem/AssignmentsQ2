@@ -16,8 +16,8 @@ export default function Future() {
         <p>
           Remote work, once a niche option, has rapidly become a mainstream mode
           of operation across industries. The pandemic accelerated this trend,
-          showing businesses that productivity doesn't necessarily require a
-          traditional office. As we look to the future, it's clear that remote
+          showing businesses that productivity doesn&apos;t necessarily require a
+          traditional office. As we look to the future, it&apos;s clear that remote
           work is here to stay, but what will it look like? From evolving
           technologies to shifting work cultures, the future of remote work
           holds transformative changes that will redefine how we work and live.
@@ -29,7 +29,7 @@ export default function Future() {
           have already laid the foundation. However, emerging technologies such
           as virtual reality (VR) and artificial intelligence (AI) are set to
           revolutionize remote work even further. VR could simulate immersive
-          office experiences, enabling teams to "meet" in virtual spaces, while
+          office experiences, enabling teams to &apos;meet&apos; in virtual spaces, while
           AI could streamline workflows by automating repetitive tasks and
           facilitating more efficient communication.
         </p>

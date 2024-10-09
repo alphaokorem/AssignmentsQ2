@@ -10,7 +10,7 @@ export default function Home() {
       <br />
       <br />
       <br />
-      <h1 className="center">"AT BLOGERMEN'S, WE WRITE TO OUR HEART'S CONTENT"</h1>
+      <h1 className="center">&apos;AT BLOGERMEN&apos;S, WE WRITE TO OUR HEART&apos;S CONTENT&apos;</h1>
       <br />
       <div id="categories">
         <div className="cards">
@@ -41,7 +41,7 @@ export default function Home() {
           <Image src="/pjj.jpg" alt="" />
           <br />
           <h1>Percy Jackson</h1>
-          <p>In Percy Jackson and the Olympians, Percy discovers he's a demigod, the son of Poseidon, and embarks on a series of dangerous quests alongside his friends to prevent a war between the gods. The series blends Greek mythology with modern adventure....</p>
+          <p>In Percy Jackson and the Olympians, Percy discovers he&apos;s a demigod, the son of Poseidon, and embarks on a series of dangerous quests alongside his friends to prevent a war between the gods. The series blends Greek mythology with modern adventure....</p>
           <br />
           <button><Link href={"percy"}>Read More</Link></button>
         </div>
@@ -50,7 +50,7 @@ export default function Home() {
           <div className="info">
           <br />
           <h1>Inflation in Pakistan</h1>
-          <p>Inflation in Pakistan has been a persistent challenge, significantly impacting the daily lives of its citizens. Rising prices of essential goods, including food, fuel, and utilities, have strained household budgets, particularly for lower- and middle-income families. The causes of inflation are multifaceted, driven by external factors like global supply chain disruptions and rising oil prices, as well as internal issues such as fiscal mismanagement, currency depreciation, and reliance on imports. The government's efforts to stabilize the economy through monetary tightening and subsidies have had mixed results, with many still struggling to cope with the increased cost of living.</p>
+          <p>Inflation in Pakistan has been a persistent challenge, significantly impacting the daily lives of its citizens. Rising prices of essential goods, including food, fuel, and utilities, have strained household budgets, particularly for lower- and middle-income families. The causes of inflation are multifaceted, driven by external factors like global supply chain disruptions and rising oil prices, as well as internal issues such as fiscal mismanagement, currency depreciation, and reliance on imports. The government&apos;s efforts to stabilize the economy through monetary tightening and subsidies have had mixed results, with many still struggling to cope with the increased cost of living.</p>
           <br />
           </div>
           <button><Link href={"inflation"}>Read More</Link></button>
@@ -67,7 +67,7 @@ export default function Home() {
           <Image src="/coffee.webp" alt="" />
           <br />
           <h1>Coffee Lovers</h1>
-          <p>Whether enjoyed in the quiet of a morning routine or shared in lively conversation with friends, coffee has a way of bringing people together. Its rich aroma and bold flavors create moments of calm amidst the rush, while its invigorating effect fuels creativity, productivity, and connection. Coffee is more than just a drink—it's an experience that awakens the senses and sparks inspiration.</p>
+          <p>Whether enjoyed in the quiet of a morning routine or shared in lively conversation with friends, coffee has a way of bringing people together. Its rich aroma and bold flavors create moments of calm amidst the rush, while its invigorating effect fuels creativity, productivity, and connection. Coffee is more than just a drink—it&apos;s an experience that awakens the senses and sparks inspiration.</p>
           <br />
           <button><Link href={"coffee"}>Read More</Link></button>
         </div>
@@ -75,13 +75,13 @@ export default function Home() {
           <Image src="/musk.jpeg" alt="" />
           <br />
           <h1>Gigafactory of compute</h1>
-          <p>Elon Musk has announced plans to build a large-scale supercomputer, "gigafactory of compute," to support his artificial intelligence startup, xAI. According to a report by The Information, this supercomputer will incorporate 100,000 Nvidia chips and is slated to be operational by fall 2025.</p>
+          <p>Elon Musk has announced plans to build a large-scale supercomputer, &apos;gigafactory of compute&apos;, to support his artificial intelligence startup, xAI. According to a report by The Information, this supercomputer will incorporate 100,000 Nvidia chips and is slated to be operational by fall 2025.</p>
           <br />
           <button><Link href={"musk"}>Read More</Link></button>
         </div>
       </div>
       <br /><br />
-      <p id="closing">"At Blogermen, our mission is to empower readers with insightful, engaging, and authentic content that sparks curiosity and inspires informed decision-making. We strive to build a diverse community of thinkers, learners, and creators by delivering high-quality blogs on a wide range of topics—from tech and lifestyle to business and culture."</p>
+      <p id="closing">&apos;At Blogermen, our mission is to empower readers with insightful, engaging, and authentic content that sparks curiosity and inspires informed decision-making. We strive to build a diverse community of thinkers, learners, and creators by delivering high-quality blogs on a wide range of topics—from tech and lifestyle to business and culture.&apos;</p>
       <br /><br />
       <Footer/>
     </div>

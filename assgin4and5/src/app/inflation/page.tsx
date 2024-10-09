@@ -21,7 +21,7 @@ export default function Inflation() {
           businesses across the country. Understanding the causes, impacts, and
           potential solutions to this issue is crucial as inflation continues to
           shape the country's economic landscape.
-        </p>{" "}
+        </p>
         <p>
           One of the primary reasons for inflation in Pakistan is the rise in
           global commodity prices. As a country that heavily depends on imports
@@ -32,7 +32,7 @@ export default function Inflation() {
           increases globally, transportation costs surge, which in turn raises
           the prices of almost every product in the market, from food to
           household items.
-        </p>{" "}
+        </p>
         <p>
           Additionally, the depreciation of the Pakistani rupee has exacerbated
           inflation. Over the past few years, the rupee has lost significant
@@ -42,7 +42,7 @@ export default function Inflation() {
           purchase the same amount of goods from abroad. This has directly
           contributed to the rise in inflation, as businesses and manufacturers
           pass these increased costs onto consumers.
-        </p>{" "}
+        </p>
         <p>
           The impact of inflation on the average Pakistani citizen has been
           severe. For many households, essential items such as flour, sugar, and
@@ -52,7 +52,7 @@ export default function Inflation() {
           purchasing power has also had a ripple effect on the broader economy,
           as consumers cut back on spending, affecting businesses and slowing
           down economic growth.
-        </p>{" "}
+        </p>
         <p>
           In rural areas, inflation has hit farmers particularly hard. The
           increased cost of agricultural inputs such as fertilizers, seeds, and
@@ -61,7 +61,7 @@ export default function Inflation() {
           cycle of debt and financial strain for many in the agricultural
           sector, further destabilizing the economy and worsening food security
           in the country.
-        </p>{" "}
+        </p>
         <p>
           Addressing inflation in Pakistan is no easy task, but the government
           and policymakers are exploring various strategies to mitigate its
@@ -72,18 +72,18 @@ export default function Inflation() {
           inflationary pressures. However, this policy also makes borrowing more
           expensive, which can slow down economic growth and create challenges
           for businesses and consumers alike.
-        </p>{" "}
+        </p>
         <p>
-          Another potential solution is to improve Pakistan’s domestic
+          Another potential solution is to improve Pakistan's domestic
           production capacity. By reducing reliance on imports and promoting
           local industries, the country can decrease its vulnerability to global
           price shocks. Investing in sectors such as agriculture, energy, and
           manufacturing can boost the domestic supply of goods and services,
           helping to stabilize prices and create jobs. Moreover, focusing on
           renewable energy and local fuel alternatives could help reduce the
-          country’s dependence on imported oil, thereby insulating it from
+          country's dependence on imported oil, thereby insulating it from
           international oil price fluctuations.
-        </p>{" "}
+        </p>
         <p>
           In conclusion, inflation in Pakistan is a complex and multifaceted
           issue, influenced by both global and domestic factors. While there is

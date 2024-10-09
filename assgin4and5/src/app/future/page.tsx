@@ -16,12 +16,12 @@ export default function Future() {
         <p>
           Remote work, once a niche option, has rapidly become a mainstream mode
           of operation across industries. The pandemic accelerated this trend,
-          showing businesses that productivity doesn’t necessarily require a
+          showing businesses that productivity doesn't necessarily require a
           traditional office. As we look to the future, it's clear that remote
           work is here to stay, but what will it look like? From evolving
           technologies to shifting work cultures, the future of remote work
           holds transformative changes that will redefine how we work and live.
-        </p>{" "}
+        </p>
         <p>
           One of the biggest drivers of the future of remote work is
           technological advancement. Tools like video conferencing platforms,
@@ -32,7 +32,7 @@ export default function Future() {
           office experiences, enabling teams to "meet" in virtual spaces, while
           AI could streamline workflows by automating repetitive tasks and
           facilitating more efficient communication.
-        </p>{" "}
+        </p>
         <p>
           Flexibility is another key trend shaping the future of remote work. As
           employees have experienced the freedom of managing their own
@@ -42,7 +42,7 @@ export default function Future() {
           flexibility not only improves work-life balance but also helps
           businesses tap into global talent, as geographical limitations become
           less relevant.
-        </p>{" "}
+        </p>
         <p>
           With this flexibility, however, comes the challenge of maintaining
           strong company culture and ensuring team cohesion. Leaders will need
@@ -51,7 +51,7 @@ export default function Future() {
           check-ins, transparent communication, and investing in employee
           well-being programs will become critical as the traditional office no
           longer serves as the social hub of the company.
-        </p>{" "}
+        </p>
         <p>
           Cybersecurity and data privacy are also critical considerations for
           the future of remote work. As more employees access company networks
@@ -59,7 +59,7 @@ export default function Future() {
           priority. Companies will need to adopt stronger security protocols,
           such as two-factor authentication and encryption, while educating
           employees on the risks associated with remote work environments.
-        </p>{" "}
+        </p>
         <p>
           Finally, the future of remote work will also impact urban planning and
           the real estate market. As more companies allow for remote and hybrid
@@ -67,7 +67,7 @@ export default function Future() {
           shift in demand for commercial real estate, while suburban and rural
           areas could experience growth as employees move away from expensive
           city centers in search of a better quality of life.
-        </p>{" "}
+        </p>
         <p>
           In conclusion, the future of remote work is a dynamic and evolving
           landscape. With advancements in technology, shifts in workplace

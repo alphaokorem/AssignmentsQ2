@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default function Mental() {
   return (
@@ -10,7 +11,7 @@ export default function Mental() {
       <div className="blog">
         <h1 className="center">Mental Health Problems</h1>
         <br />
-        <img className="pic" src="/mental.png" alt="" />
+        <Image className="pic" src="/mental.png" alt="" />
         <br />
         <p>
           Mental health problems are increasingly becoming a topic of concern in

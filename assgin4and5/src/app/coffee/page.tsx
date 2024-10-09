@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default function Coffee() {
   return (
@@ -10,7 +11,7 @@ export default function Coffee() {
       <div className="blog">
         <h1 className="center">Coffee Lovers</h1>
         <br />
-        <img className="pic" src="/coffee.webp" alt="" />
+        <Image className="pic" src="/coffee.webp" alt="" />
         <br />
         <p>
           Coffee is more than just a beverage; for many, it's a ritual, a

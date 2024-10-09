@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default function Hiking() {
   return (
@@ -10,7 +11,7 @@ export default function Hiking() {
       <div className="blog">
         <h1 className="center">Hiking</h1>
         <br />
-        <img className="pic" src="/hiking.jpeg" alt="" />
+        <Image className="pic" src="/hiking.jpeg" alt="" />
         <br />
         <p>
           Hiking is more than just a form of physical exercise—it's an immersive

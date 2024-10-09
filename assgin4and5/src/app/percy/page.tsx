@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default function PJ() {
   return (
@@ -10,7 +11,7 @@ export default function PJ() {
       <div className="blog">
         <h1 className="center">Percy Jackson</h1>
         <br />
-        <img className="pic" src="/pjj.jpg" alt="" />
+        <Image className="pic" src="/pjj.jpg" alt="" />
         <br />
         <p>
           Percy Jackson is more than just a series of books—it's an immersive

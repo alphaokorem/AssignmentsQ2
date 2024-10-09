@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default function Creepy() {
     return(
@@ -9,7 +10,7 @@ export default function Creepy() {
             <div className="blog">
                 <h1 className="center">Creepy Pasta</h1>
                 <br />
-                <img className="pic" src="/creep.jpeg" alt="" />
+                <Image className="pic" src="/creep.jpeg" alt="" />
                 <br />
                 <p>It was just a game, they said. Something fun to play with friends online.</p>
 

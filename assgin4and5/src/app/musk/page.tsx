@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default function Musk() {
   return (
@@ -10,7 +11,7 @@ export default function Musk() {
       <div className="blog">
         <h1 className="center">Gigafactory of compute</h1>
         <br />
-        <img className="pic" src="/musk.jpeg" alt="" />
+        <Image className="pic" src="/musk.jpeg" alt="" />
         <br />
         <p>
           Elon Musk's vision has consistently pushed the boundaries of

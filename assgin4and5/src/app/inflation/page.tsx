@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Image from "next/image";
 
 export default function Inflation() {
   return (
@@ -10,7 +11,7 @@ export default function Inflation() {
       <div className="blog">
         <h1 className="center">Inflation in Pakistan</h1>
         <br />
-        <img className="pic" src="/inflat.jpg" alt="" />
+        <Image className="pic" src="/inflat.jpg" alt="" />
         <br />
         <p>
           Inflation in Pakistan has been a significant economic challenge over

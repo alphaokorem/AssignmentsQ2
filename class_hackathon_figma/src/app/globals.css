@@ -544,7 +544,7 @@ h3{
 }
 #ps5{
   height: 250px;
-  width: 800px;
+  width: 800%;
 }
 #psheading{
   padding-right: 10px;
@@ -579,6 +579,7 @@ h3{
 .top{
   width: 100%;
   margin-left: 20px;
+  display: inline;
 }
 .top h2{
   font-size: 20px;
@@ -656,13 +657,6 @@ h3{
 #bigSale p{
   font-size: 10px;
 }
-#bigSale button{
-  margin-top: 15px;
-  width: 160px;
-  padding: 10px;
-  border: 1px solid white;
-  border-radius: 10px;
-}
 
 /* Footer */
 #blackbg{
@@ -670,10 +664,8 @@ h3{
   padding-bottom: 80px;
   padding-left: 0px;
   padding-right: 0px;
-  background-color: #000;
 }
 #footer{
-  display: flex;
   flex-direction: column;
   gap: 40px;
 }

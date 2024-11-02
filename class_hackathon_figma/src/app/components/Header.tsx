@@ -12,9 +12,10 @@ export default function Header() {
 
 
       <div id="menu">
-        <img id="menuIcon" src="/menu.png" alt="" />
 
-        <div id="upperHeader">
+        {/* <img id="menuIcon" src="/menu.png" alt="" /> */}
+
+        <div id="menuUpperHeader">
 
           <div id="upperHeaderBar">
             <form action="">
@@ -71,6 +72,7 @@ export default function Header() {
             </li>
           </ul>
         </div>
+        <img id="menuIcon" src="/menu.png" alt="" />
       </div>
     </div>
   );

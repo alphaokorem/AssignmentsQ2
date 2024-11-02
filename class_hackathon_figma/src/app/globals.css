@@ -32,7 +32,7 @@ h3 {
 #menu {
   display: flex;
 }
-#upperHeader {
+#menuUpperHeader {
   display: flex;
 }
 #upperHeaderNav {
@@ -175,7 +175,7 @@ h3 {
   align-items: center;
   gap: -10px;
 }
-#square2 {
+#square2{
   background-color: rgb(36, 35, 35);
 }
 #square1 {
@@ -424,256 +424,194 @@ h3 {
   height: 20px;
 }
 
+
+
 @media only screen and (max-width: 425px) {
-  body {
+  body{
     width: 100vw;
   }
   #home{
     width: 100%;
   }
-  h1 {
-    font-size: 35px;
-  }
-  h2 {
-    font-size: 25px;
-  }
-  h3 {
-    font-size: 20px;
-    color: black;
-  }
-
-  /* Header */
-  #upperHeaderIcons {
-    display: none;
-  }
-  #menuIcon {
-    height: 30px;
-    width: 30px;
-    display: block;
-  }
-  #menu:hover #menuIcon {
-    transform: translate(255px);
-  }
-  #menu {
-    flex-direction: column;
-  }
-  #header {
-    display: flex;
-    justify-content: space-between;
-  }
-  #upperHeader {
-    display: none;
-    background-color: rgb(170, 170, 170);
-    width: 300px;
-    height: 200px;
-    border-radius: 10px;
-  }
-  #menu:hover #upperHeader {
-    display: block;
-  }
-  #upperHeaderNav {
-    flex-direction: column;
-    gap: 10px;
-  }
-  #searchbar {
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 260px;
-  }
-  #title {
-    width: 75%;
-  }
-
-  /* Banner */
-  #frontier {
-    padding-top: 40px;
-    width: 100%;
-    flex-direction: column;
-  }
-  #heading1 {
-    font-size: 20px;
-  }
-  #heading2 {
-    font-size: 40px;
-  }
-  #front-iphone {
-    width: 245px;
-    overflow: hidden;
-  }
-  .shop {
-    border: 1px solid;
-    width: 141px;
-    height: 56px;
-    border-radius: 8px;
-  }
-
-  /* Small Banners */
-  #banners {
-    flex-direction: column;
-    height: fit-content;
-  }
-  #rightbanner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e3e0e0;
-    height: 400px;
-    width: 100%;
-    color: black;
-  }
-  #macbook {
-    height: 300px;
-    width: 120px;
-  }
-  #leftbanners {
-    width: 100%;
-  }
-  #widebanner {
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
-    color: black;
-    height: 250px;
-  }
-  #ps5 {
-    height: 250px;
-    width: 800%;
-  }
-  #psheading {
-    padding-right: 10px;
-  }
-  #squarebanners {
-    display: flex;
-    flex-direction: column;
-  }
-  #squarebanners > div {
-    width: 100%;
-  }
-  .squares {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    gap: -10px;
-  }
-  .squaretitles {
-    width: 250px;
-    padding-right: 50px;
-  }
-
-  /* Categories */
-  #Categories {
-    height: 400px;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 80px;
-    padding-bottom: 80px;
-  }
-  .top {
-    width: 100%;
-    margin-left: 20px;
-    display: inline;
-  }
-  .top h2 {
-    font-size: 20px;
-  }
-  #categoryDiv {
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-around;
-  }
-  #buttons {
-    display: none;
-  }
-
-  /* Products */
-  #products {
-    width: 100%;
-  }
-  #productsNavbar ul {
-    margin-left: 50px;
-    margin-right: 0px;
-    gap: 20px;
-  }
-  .shelf {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .card {
-    width: 180px;
-    text-align: center;
-    color: #000;
-    padding: 15px;
-    background-color: #f6f6f6;
-    margin-bottom: 20px;
-    border-radius: 8px;
-  }
-  #buybutton {
-    border: 1px solid black;
-    width: 120px;
-    padding: 10px;
-    background-color: #000;
-    color: #d1d0d0;
-    border-radius: 10px;
-  }
-
-  /* Long Banners */
-  #longbanners {
-    flex-direction: column;
-  }
-  .imgdivs {
-    margin: auto;
-  }
-  .longbannerimages {
-    margin: auto;
-  }
-  .lbanners button {
-    margin-left: 33%;
-  }
-
-  /* Discounted */
-  #discountHeading {
-    margin-left: 20px;
-  }
-
-  /* Sales Banner */
-  #bigSale {
-    transform: translateY(-200px);
-  }
-  #sale img {
-    height: 250px;
-  }
-  #bigSale h1 {
+  h1{
     font-size: 30px;
   }
-  #bigSale p {
-    font-size: 10px;
+  /* Header */
+  #header{
+    justify-content: center;
+    gap: 80px;
+  }
+  #headerLogo{
+    margin-left: -150px;
+  }
+  .headerIcons {
+    display: none;
+  }
+  #menu{
+    height: max-content;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  #menuIcon{
+    display: block;
+    height: 30px;
+  }
+  #menuUpperHeader {
+    display: none;
+  }
+  #menu:hover #menuUpperHeader{
+    display: block;
+    height: 170px;
+    width: 170px;
+    background-color: #8d8b8b;
+    border-radius: 10px;
+  }
+  #upperHeaderBar{
+    padding-left: 5%;
+    padding-top: 10px;
+  }
+  #searchbar{
+    width: 150px;
+  }
+  #upperHeaderNav{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
   }
 
-  /* Footer */
-  #blackbg {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  #footer {
-    flex-direction: column;
-    gap: 40px;
-  }
-  #footer div {
-    margin: auto;
-    text-align: center;
-  }
-  #cyber {
-    width: 400px;
-    margin-right: 0px;
-  }
-  #footerIcons {
-    margin: auto;
-    display: flex;
-    width: 150px;
-    justify-content: space-between;
-  }
+
+/* Front */
+#frontier {
+  flex-direction: column;
+  text-align: center;
+  padding-top: 12%;
+}
+#front-iphone {
+  width: 52%;
+  margin: auto;
+}
+#heading1 {
+  color: rgb(169, 167, 167);
+  font-size: 20px;
+}
+#heading2 {
+  font-size: 40px;
+  font-weight: 10;
+}
+#title {
+  width: 95%;
+}
+
+/* Small Banners */
+#banners {
+  flex-direction: column;
+  height: fit-content;
+}
+#rightbanner {
+  height: 400px;
+  width: 100%
+}
+#macbook {
+  height: 300px;
+  width: 100%
+}
+#leftbanners {
+  width: 100%;
+}
+#squarebanners {
+  flex-direction: column;
+}
+#squarebanners > div {
+  width:100%;
+}
+
+/* Categories */
+#Categories {
+  height: 600px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+#categoryDiv {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Product */
+#productsNavbar ul {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.shelf {
+  margin-left: 0px;
+  margin-right: 0px;
+  justify-content: space-evenly;
+}
+.card {
+  width: 40%;
+  padding: 10px;
+}
+#buybutton {
+  width: 60%;
+  padding: 5px
+}
+
+/* Long Banners */
+#longbanners {
+  flex-direction: column;
+}
+.lbanners{
+  text-align: center;
+}
+.lbanners img{
+  margin: auto;
+}
+
+/* Discounted */
+#discountHeading {
+  margin-left: 10px;
+}
+
+/* Sales Banner */
+#sale img{
+  height: 250px;
+}
+#bigSale h1 {
+  font-size: 35px;
+}
+#bigSale p {
+  color: #747474;
+}
+#bigSale {
+  transform: translateY(-230px);
+  width: 60%;
+  margin: auto;
+}
+
+/* Footer */
+#blackbg {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#footer{
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+}
+#footer div{
+  width: 100%;
+}
+#cyber {
+  margin-right: 0px;
+}
+#footerIcons {
+  margin: auto;
+}
 }

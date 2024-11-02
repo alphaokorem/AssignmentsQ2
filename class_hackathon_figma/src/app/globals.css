@@ -432,7 +432,7 @@ h3{
   height: 20px;
 }
 
-@media only screen and (max-width: 440px) {
+@media only screen and (max-width: 425px) {
 #home{
   width: 100%;
 }
@@ -458,7 +458,7 @@ h3{
  display: block;
 }
 #menu:hover #menuIcon{
-  transform: translate(260px);
+  transform: translate(255px);
 }
 #menu{
   flex-direction: column;

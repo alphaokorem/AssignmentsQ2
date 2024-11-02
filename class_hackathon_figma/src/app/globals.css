@@ -15,6 +15,9 @@ h3{
   font-size: 20px;
   color: black;
 }
+#menuIcon{
+  display: none;
+}
 
 
 
@@ -28,6 +31,12 @@ h3{
 }
 .headerIcons{
   height: 30px;
+}
+#menu{
+  display: flex;
+}
+#upperHeader{
+  display: flex;
 }
 #upperHeaderNav{
   display: flex;
@@ -50,6 +59,7 @@ h3{
   padding: 6px;
   width: 400px;
   border-radius: 8px ;
+  margin-right: 20px;
 }
 
 
@@ -60,7 +70,6 @@ h3{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* gap: 100px; */
 }
 #front-iphone{
   width: 384px;
@@ -333,10 +342,6 @@ h3{
 .imgdivs{
   height: 340px;
 }
-#watch{
-  position: absolute;
-  transform: translate(120px, -320px);
-}
 .lbanners h1{
   padding: 25px;
   font-size: 32px;
@@ -424,4 +429,265 @@ h3{
 }
 #footerIcons img{
   height: 20px;
+}
+
+@media only screen and (max-width: 440px) {
+#home{
+  width: 440px;
+}
+h1{
+  font-size: 35px;
+}
+h2{
+  font-size: 25px;
+}
+h3{
+  font-size: 20px;
+  color: black;
+}
+
+
+/* Header */
+#upperHeaderIcons{
+  display: none;
+}
+#menuIcon{
+ height: 30px;
+ width: 30px;
+ display: block;
+}
+#menu:hover #menuIcon{
+  transform: translate(260px);
+}
+#menu{
+  flex-direction: column;
+}
+#header{
+  display: flex;
+  justify-content: space-between;
+}
+#upperHeader{
+  display: none;
+  background-color: rgb(170, 170, 170);
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+#menu:hover #upperHeader{
+  display: block;
+}
+#upperHeaderNav{
+  flex-direction: column;
+  gap: 10px;
+}
+#searchbar{
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 260px;
+}
+#title{
+  width: 75%;
+}
+
+/* Banner */
+#frontier{
+  padding-top: 40px;
+  width: 100%;
+  flex-direction: column;
+}
+#heading1{
+  font-size: 20px;
+}
+#heading2{
+  font-size: 40px;
+}
+#front-iphone{
+  width: 245px;
+  overflow: hidden;
+}
+.shop{
+  border: 1px solid;
+  width: 141px;
+  height: 56px;
+  border-radius: 8px;
+}
+
+/* Small Banners */
+#banners{
+  flex-direction: column;
+  height: fit-content;
+}
+#rightbanner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e0e0;
+  height: 400px;
+  width: 100%;
+  color: black;
+}
+#macbook{
+  height: 300px;
+  width: 120px;
+}
+#leftbanners{
+  width: 100%;
+}
+#widebanner{
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  color: black;
+  height: 250px;
+}
+#ps5{
+  height: 250px;
+  width: 800px;
+}
+#psheading{
+  padding-right: 10px;
+}
+#squarebanners{
+  display: flex;
+  flex-direction: column;
+}
+#squarebanners > div{
+  width: 100%;
+}
+.squares{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: -10px;
+}
+.squaretitles{
+  width: 250px;
+  padding-right: 50px;
+}
+
+/* Categories */
+#Categories{
+  height: 400px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.top{
+  width: 100%;
+  margin-left: 20px;
+}
+.top h2{
+  font-size: 20px;
+}
+#categoryDiv{
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+#buttons{
+  display: none;
+}
+
+
+/* Products */
+#products{
+  width: 100%;
+}
+#productsNavbar ul{
+  margin-left: 50px;
+  margin-right: 0px;
+  gap: 20px;
+}
+.shelf{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.card{
+  width:180px;
+  text-align: center;
+  color: #000;
+  padding: 15px;
+  background-color: #F6F6F6;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+#buybutton{
+  border: 1px solid black;
+  width: 120px;
+  padding: 10px;
+  background-color: #000;
+  color: #d1d0d0;
+  border-radius: 10px;
+}
+
+/* Long Banners */
+#longbanners{
+  flex-direction: column;
+}
+.imgdivs{
+  margin: auto;
+}
+.longbannerimages{
+  margin: auto;
+}
+.lbanners button{
+  margin-left: 33%;
+}
+
+/* Discounted */
+#discountHeading{
+  margin-left: 20px;
+}
+
+/* Sales Banner */
+#bigSale{
+  transform: translateY(-200px);
+}
+#sale img{
+  height: 250px;
+}
+#bigSale h1{
+  font-size: 30px;
+}
+#bigSale p{
+  font-size: 10px;
+}
+#bigSale button{
+  margin-top: 15px;
+  width: 160px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+/* Footer */
+#blackbg{
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #000;
+}
+#footer{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+#footer div{
+  margin: auto;
+  text-align: center;
+}
+#cyber{
+  width: 400px;
+  margin-right: 0px;
+}
+#footerIcons{
+  margin: auto;
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+}
 }

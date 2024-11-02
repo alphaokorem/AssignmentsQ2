@@ -2,7 +2,7 @@ import { discounts } from "./Exports";
 
 export default function Discounted() {
   return (
-    <div>
+    <div id="discount">
       <div id="discountHeading">
         <h2>Discounts up to -50%</h2>
       </div>

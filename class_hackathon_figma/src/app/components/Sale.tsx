@@ -1,6 +1,6 @@
 export default function Sale() {
     return(
-        <div>
+        <div id="sale">
             <img src="/sale.png" alt="" />
             <div id="bigSale">
                 <h1>Big Summer <b><b>Sale</b></b></h1>

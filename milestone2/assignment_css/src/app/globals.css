@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: sour;
+  src: url("./fonts/sour.ttf");
+}
+body{
+  color: white;
+  font-family: sour;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #b7b7b7;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+h2 {
+  color: #a3a3a3;
+  font-size: 30px;
+  margin: 10px 0;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+p{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  padding: 25px;
+}
+.logo a {
+  font-weight: bold;
+  font-size: larger;
+}
+.navbarLinks {
+  display: flex;
+  gap: 20px;
+}
+.navbarLinks a {
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+.navbarLinks li a:hover {
+  color: #b7b7b7;
+}
+#homepage-pic{
+  width: 40%;
+}
+#homepage-banner{
+  width: 60%;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10%;
+}
+#homepage{
+  display: flex;
+}
+.my-portfolio{
+  font-size: 100px;
+  color: #b7b7b7;
+  font-weight: 700;
+  text-align: center;
+  font-family: sans-serif;
+  border-left: 2px solid white;
+  border-bottom : 2px solid white;
+  padding-left: 20px;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track{
+  background: #222222;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+  border: 0px
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+
+
+
+#aboutme{
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+}

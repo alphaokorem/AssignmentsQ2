@@ -528,7 +528,7 @@ h3 {
 
 /* Categories */
 #Categories {
-  height: 600px;
+  height: fit-content;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 80px;

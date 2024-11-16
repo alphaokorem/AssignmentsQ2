@@ -1,0 +1,33 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('./bgwallpaper.jpg'); 
+    background-size: fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+#name {
+    text-shadow: 3px 3px 3px black;
+}
+.resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+.details {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+}

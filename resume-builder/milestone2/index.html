@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dynamic-resume</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="resume">
+      <h1 style="color: rgba(131, 131, 131, 0.8);">MY RESUME</h1>
+      <div class="header">
+        <input type="file" id="image" accept="image/*" />
+        <h1 id="name">
+          <input type="text" id="UserName" placeholder="Enter your name" />
+        </h1>
+        <p>
+          <input type="text" id="jobTitle" placeholder="Enter your job title" />
+        </p>
+      </div>
+      <div class="details">
+        <h2>About Me</h2>
+        <textarea id="aboutme" placeholder="Write about yourself"></textarea>
+        <br />
+        <h2>Education</h2>
+        <ul class="lists">
+          <li>
+            <textarea id="education" placeholder="Education"></textarea>
+          </li>
+        </ul>
+        <br />
+        <h2>Skills</h2>
+        <ul class="lists">
+          <li><textarea id="skill1" placeholder="Skills"></textarea></li>
+        </ul>
+        <br />
+        <h2>Work Experience</h2>
+        <ul class="lists">
+          <li><textarea id="experience" placeholder="Describe your work experience"></textarea></li>
+        </ul>
+      </div>
+      <br />
+      <div class="details">
+        <h2>Contact Information</h2>
+        <h3>Phone</h3>
+        <input type="number" id="contactPhone" placeholder="Enter your phone number" required/>
+        <h3>Email</h3>
+        <input type="email" id="email" placeholder="Enter your email address" required/>
+        <h3>LinkedIn</h3>
+        <label for="">(Optional)</label>
+        <input type="text" id="linkedin" placeholder="LinkedIn profile ID" />
+      </div>
+        <br><br>
+      <button onclick="generateResume()" id="generateButton" style="padding: 10px;">Generate Resume</button>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

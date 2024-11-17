@@ -9,7 +9,7 @@ const contactPhoneInput = document.getElementById("contactPhone") as HTMLInputEl
 const emailInput = document.getElementById("email") as HTMLInputElement;
 const linkedinInput = document.getElementById("field") as HTMLInputElement;
 
-  if(linkedinInput.value) {
+  if(linkedinInput.value) {  // idk how to get this if statement to work
     const link = document.getElementById("linkedin") as HTMLDivElement;
     const field = document.getElementById("field") as HTMLDivElement;
     field.style.display = "none"; //hide the input field

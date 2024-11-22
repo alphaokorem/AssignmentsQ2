@@ -1,21 +1,21 @@
-var imageInput = document.getElementById("image");
-var userNameInput = document.getElementById("UserName");
-var jobTitleInput = document.getElementById("jobTitle");
-var aboutMeInput = document.getElementById("aboutme");
-var educationInput = document.getElementById("education");
-var skillInput = document.getElementById("skill1");
-var experienceInput = document.getElementById("experience");
-var contactPhoneInput = document.getElementById("contactPhone");
-var emailInput = document.getElementById("email");
-var linkedinInput = document.getElementById("field");
-if (linkedinInput.value) {
+var image = document.getElementById("image");
+var userName = document.getElementById("UserName");
+var jobTitle = document.getElementById("jobTitle");
+var aboutMe = document.getElementById("aboutme");
+var education = document.getElementById("education");
+var skill = document.getElementById("skill1");
+var experience = document.getElementById("experience");
+var contactPhone = document.getElementById("contactPhone");
+var email = document.getElementById("email");
+var linkedin = document.getElementById("field");
+if (linkedin.value == "") {
     var link = document.getElementById("linkedin");
     var field = document.getElementById("field");
     field.style.display = "none"; //hide the input field
-    link.style.display = "none"; //hide the link input field
+    link.style.display = "none"; //hide the link field
 }
 function generateResume() {
-    if (imageInput.files) {
+    if (image.files) {
         var reader = new FileReader();
         reader.onload = function (e) {
             var _a;
@@ -24,20 +24,20 @@ function generateResume() {
             imgElement.src = (_a = e.target) === null || _a === void 0 ? void 0 : _a.result;
             imgElement.style.width = "200px"; //set width and
             imgElement.style.borderRadius = "10px"; //set border radius as was done in the original milestone1
-            imageInput.replaceWith(imgElement);
-            //replaces the file input field with the new image element
+            image.replaceWith(imgElement);
+            //replaces the file   field with the new image element
         };
-        reader.readAsDataURL(imageInput.files[0]);
+        reader.readAsDataURL(image.files[0]);
     }
-    userNameInput.outerHTML = "<h1 contenteditable=\"true\">".concat(userNameInput.value, "</h1>");
-    jobTitleInput.outerHTML = "<p contenteditable=\"true\">".concat(jobTitleInput.value, "</p>");
-    aboutMeInput.outerHTML = "<p contenteditable=\"true\">".concat(aboutMeInput.value, "</p>");
-    educationInput.outerHTML = "<li contenteditable=\"true\">".concat(educationInput.value, "</li>");
-    skillInput.outerHTML = "<li contenteditable=\"true\">".concat(skillInput.value, "</li>");
-    experienceInput.outerHTML = "<li contenteditable=\"true\">".concat(experienceInput.value, "</li>");
-    contactPhoneInput.outerHTML = "<p contenteditable=\"true\">".concat(contactPhoneInput.value, "</p>");
-    emailInput.outerHTML = "<p contenteditable=\"true\">".concat(emailInput.value, "</p>");
-    linkedinInput.outerHTML = "<p contenteditable=\"true\">".concat(linkedinInput.value, "</p>");
+    userName.outerHTML = "<h1 contenteditable=\"true\">".concat(userName.value, "</h1>");
+    jobTitle.outerHTML = "<p contenteditable=\"true\">".concat(jobTitle.value, "</p>");
+    aboutMe.outerHTML = "<p contenteditable=\"true\">".concat(aboutMe.value, "</p>");
+    education.outerHTML = "<li contenteditable=\"true\">".concat(education.value, "</li>");
+    skill.outerHTML = "<li contenteditable=\"true\">".concat(skill.value, "</li>");
+    experience.outerHTML = "<li contenteditable=\"true\">".concat(experience.value, "</li>");
+    contactPhone.outerHTML = "<p contenteditable=\"true\">".concat(contactPhone.value, "</p>");
+    email.outerHTML = "<p contenteditable=\"true\">".concat(email.value, "</p>");
+    linkedin.outerHTML = "<p contenteditable=\"true\">".concat(linkedin.value, "</p>");
     var button = document.getElementById("generateButton");
     button.style.display = "none";
 }

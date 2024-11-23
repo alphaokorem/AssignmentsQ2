@@ -1,0 +1,79 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('./bgwallpaper.jpg'); 
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+#aboutme{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+#name {
+    text-shadow: 3px 3px 3px black;
+}
+.resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+}
+.details {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    width: 80%;
+}
+.lists{
+    width: 400px;
+    margin: auto;
+}
+
+textarea{
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px black;
+}
+input{
+    border-radius: 6px;
+    box-shadow: 1px 1px 3px black;
+}
+button::after{
+    display: none
+}
+
+@media only screen and (max-width: 425px) {
+    body{
+        background-size: cover;
+        background-position: center;
+        width: 100vw;
+    }
+    .resume{
+        padding: 0;
+    }
+    .lists{
+        width: 80%;
+        text-align: left;
+    }
+    #aboutme{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
+
+#share{
+    text-align: center;
+    display: none;
+}

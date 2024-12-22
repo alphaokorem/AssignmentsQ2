@@ -10,6 +10,7 @@ const config: Config = {
   theme: {
   	extend: {
   		colors: {
+			vitaGreen: "#23856D",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -52,7 +53,7 @@ const config: Config = {
   			}
   		},
   		backgroundImage: {
-  			bannerImg: "url('/blueBanner.jpg')"
+  			bannerImg: "url('/blueBanner.jpg')",
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

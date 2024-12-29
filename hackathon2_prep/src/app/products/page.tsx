@@ -1,6 +1,6 @@
 "use client";
 import SaleHeader from "../components/SaleHeader";
-import Header from "@/app/components/Header";
+// import Header from "@/app/components/Header";
 import Products from "../components/Products";
 import Footer from "../components/Footer";
 import { useState } from "react";
@@ -14,7 +14,7 @@ export default function ProductsPage() {
   return (
     <>
       <SaleHeader />
-      <Header />
+      {/* <Header /> */}
       <div className="font-bold text-2xl text-center my-5">Shop</div>
       <div className="flex flex-col justify-center items-center gap-3 md:flex-row md:flex-wrap">
         <div className="relative w-[205px]">

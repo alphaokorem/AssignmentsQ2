@@ -1,4 +1,3 @@
-import React from "react";
 
 import Link from "next/link";
 export default function SaleHeader() {
@@ -19,7 +18,7 @@ export default function SaleHeader() {
         <div className="px-3 py-2.5 text-white text-sm outline-none flex mr-10">
             Follow Us :
             <div className="flex gap-3 ml-3">
-              <Link href={"/"}> <img src="/insta.png" alt="instagram" /> </Link>
+              <Link href={"https://www.instagram.com"}> <img src="/insta.png" alt="instagram" /> </Link>
               <Link href={"/"}> <img src="/yt.png" alt="youtube" /> </Link>
               <Link href={"/"}> <img src="/fb.png" alt="facebook" /> </Link>
               <Link href={"/"}> <img src="/twitter.png" alt="twitter" /> </Link>

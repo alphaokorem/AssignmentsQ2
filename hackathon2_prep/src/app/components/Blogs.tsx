@@ -1,6 +1,5 @@
 
 import Link from "next/link";
-import React from "react";
 export default function Blogs() {
   const blogData: string[] = [
     "/blog/1.png",

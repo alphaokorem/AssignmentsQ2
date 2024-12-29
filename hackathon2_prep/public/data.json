@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "image": "/bestSeller/a.png"
+  },
+  {
+    "id": 2,
+    "image": "/bestSeller/b.png"
+  },
+  {
+    "id": 3,
+    "image": "/bestSeller/c.png"
+  },
+  {
+    "id": 4,
+    "image": "/bestSeller/d.png"
+  },
+  {
+    "id": 5,
+    "image": "/bestSeller/1.png"
+  },
+  {
+    "id": 6,
+    "image": "/bestSeller/2.png"
+  },
+  {
+    "id": 7,
+    "image": "/bestSeller/3.png"
+  },
+  {
+    "id": 8,
+    "image": "/bestSeller/4.png"
+  }
+]

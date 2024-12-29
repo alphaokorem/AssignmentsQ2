@@ -1,5 +1,5 @@
 
-import React from "react";
+
 import Link from "next/link";
 
 export const products = [
@@ -20,8 +20,8 @@ export default function Products() {
           <div className="flex flex-wrap justify-center items-center max-xl:gap-4 gap-2">
             
               {products.map((item, index) => (
-                <div className="overflow-hidden mx-auto aspect-w-16 aspect-h-8 bg-white  text-center  cursor-pointer hover:-translate-y-2 transition-all relative mb-20">
-                  <Link href={`products/${item.id}`} key={index}>
+                <div key={index} className="overflow-hidden mx-auto aspect-w-16 aspect-h-8 bg-white  text-center  cursor-pointer hover:-translate-y-2 transition-all relative mb-20">
+                  <Link href={`products/${item.id}`}>
                     <div >
                       <img
                         src={`${item.image}`}

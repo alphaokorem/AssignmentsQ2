@@ -1,4 +1,3 @@
-import React from "react";
 import EditorsPick from "./components/editorsPick";
 import Header from "./components/Header";
 import SaleHeader from "./components/SaleHeader";

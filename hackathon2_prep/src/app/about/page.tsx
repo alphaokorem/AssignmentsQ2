@@ -1,5 +1,6 @@
 import React from "react";
 import AboutHeader from "../components/aboutPage/AboutHeader";
+import AboutFooter from "../components/aboutPage/AboutFooter";
 
 const team = [
   {pic : "/about/team1.png"},
@@ -101,9 +102,9 @@ const AboutUs = () => {
           </p>
         </div>
 
-        <div>
+        <div className="flex flex-col justify-around items-center lg:flex-row">
           {team.map((member, index) => (
-            <div key={index} className="flex flex-col justify-normal items-center gap-6 mb-16">
+            <div key={index} className="flex flex-col gap-4 justify-center items-center mb-16">
               <img src={member.pic} alt="" />
               <h2 className="text-xl font-bold">Username</h2>
               <p className="text-sm text-gray-500 font-bold">Profession</p>
@@ -116,6 +117,8 @@ const AboutUs = () => {
           ))}
         </div>
       </div>
+
+      <AboutFooter/>
     </>
   );
 };

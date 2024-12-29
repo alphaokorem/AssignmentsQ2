@@ -1,5 +1,5 @@
 "use client"
-import React from "react";
+
 import { useState } from "react";
 import Link from "next/link";
 
@@ -45,7 +45,8 @@ export default function Header() {
 
             <ul className="lg:flex lg:ml-16 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
               <li className="mb-6 hidden max-lg:block">
-                <Link href="javascript:void(0)">
+                <Link href="#"
+                onClick={(e) => e.preventDefault()}>
                     <p className="text-xl"><b>Bandage</b></p>
                 </Link>
               </li>

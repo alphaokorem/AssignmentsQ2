@@ -45,8 +45,7 @@ export default function Header() {
 
             <ul className="lg:flex lg:ml-16 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50">
               <li className="mb-6 hidden max-lg:block">
-                <Link href="#"
-                onClick={(e) => e.preventDefault()}>
+                <Link href="/">
                     <p className="text-xl"><b>Bandage</b></p>
                 </Link>
               </li>
@@ -75,7 +74,7 @@ export default function Header() {
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
                 <Link
-                  href="javascript:void(0)"
+                  href="#blogs"
                   className="  text-gray-800 block hover:border-b-2 hover:border-stone-800 font-semibold text-[15px]"
                 >
                     Blog
@@ -83,18 +82,26 @@ export default function Header() {
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
                 <Link
-                  href="javascript:void(0)"
+                  href="contact"
                   className="  text-gray-800 block hover:border-b-2 hover:border-stone-800 font-semibold text-[15px]"
                 >
-                  Content
+                  Contact
                 </Link>
               </li>
               <li className="max-lg:border-b max-lg:py-3 px-3">
                 <Link
-                  href="javascript:void(0)"
+                  href="team"
                   className="  text-gray-800 block hover:border-b-2 hover:border-stone-800 font-semibold text-[15px]"
                 >
-                  Pages
+                  Team
+                </Link>
+              </li>
+              <li className="max-lg:border-b max-lg:py-3 px-3">
+                <Link
+                  href="pricing"
+                  className="  text-gray-800 block hover:border-b-2 hover:border-stone-800 font-semibold text-[15px]"
+                >
+                  Pricing
                 </Link>
               </li>
             </ul>
@@ -129,7 +136,7 @@ export default function Header() {
               </Link>
             </div>
               
-            <Link href={'javascript:void(0)'}> <img src="/search.png" alt="" className="h-7 hover:scale-125"/> </Link>
+              <img src="/search.png" alt="" className="h-7 hover:scale-125"/>
             <Link href={'javascript:void(0)'}> <img src="/heart.png" alt="" className="h-7 hover:scale-125"/> </Link>1
             <Link href={'javascript:void(0)'}> <img src="/cart.png" alt="" className="h-7 hover:scale-125"/> </Link>1
           </div>

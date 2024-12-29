@@ -1,20 +1,69 @@
+import Link from "next/link"
+import Image from "next/image"
 
-import Image from "next/image";
+export default function PricingFooter() {
+    return (
+        <>
 
-import Link from "next/link";
-export default function Footer() {
-  return (
-    <>
-      <div className="mt-20">
-        <div className="bg-slate-100 flex flex-col justify-evenly items-center h-[1200px] py-24 lg:flex-row lg:h-[500px]">
-          <Image src={'/footerLogos/hooli.png'} alt="" width={135} height={135}></Image>
-          <Image src={'/footerLogos/lyft.png'} alt="" width={135} height={135}></Image>
-          <Image src={'/footerLogos/cap.png'} alt="" width={135} height={135}></Image>
-          <Image src={'/footerLogos/Vector.png'} alt="" width={135} height={135}></Image>
-          <Image src={'/footerLogos/aws.png'} alt="" width={135} height={135}></Image>
-          <Image src={'/footerLogos/reddit.png'} alt="" width={135} height={135}></Image>
-        </div>
-        <div className="flex flex-col justify-between pl-8 pr-24 py-12 gap-12 bg-slate-200 lg:flex-row">
+<div className="flex flex-col justify-center items-center text-center mb-24">
+                <h1 className="text-3xl font-bold lg:text-5xl">
+                    Start your 14 days free trial
+                </h1>{" "}
+                <br />
+                <p className="text-sm font-bold text-gray-500 w-[300px] md:w-[400px]">
+                    Met minim Mollie non desert Alamo est sit cliquey dolor do met sent.
+                    RELIT official consequent.
+                </p>
+                <br />
+                <button className="text-white bg-blue-500 py-3 px-12 rounded">
+                    Try it free now
+                </button>
+                <br />
+                <br />
+                <div className="flex gap-8">
+                    <Link href={"https://en.wikipedia.org/wiki/Twitter"}>
+                        {" "}
+                        <Image
+                            src={"/twitterblue.png"}
+                            alt="twitter"
+                            className="w-8"
+                            width={135}
+                            height={135}
+                        ></Image>{" "}
+                    </Link>
+                    <Link href={"https://en.wikipedia.org/wiki/Facebook"}>
+                        {" "}
+                        <Image
+                            src={"/fbblue.png"}
+                            alt="facebook"
+                            className="w-8"
+                            width={135}
+                            height={135}
+                        ></Image>{" "}
+                    </Link>
+                    <Link href={"https://en.wikipedia.org/wiki/Instagram"}>
+                        {" "}
+                        <Image
+                            src={"/instablue.png"}
+                            alt="instagram"
+                            className="w-8"
+                            width={135}
+                            height={135}
+                        ></Image>{" "}
+                    </Link>
+                    <Link href={"https://en.wikipedia.org/wiki/LinkedIn"}>
+                        {" "}
+                        <Image
+                            src={"/linkedIn.png"}
+                            alt="twitter"
+                            className="w-8"
+                            width={135}
+                            height={135}
+                        ></Image>{" "}
+                    </Link>
+                </div>
+            </div>
+                <div className="flex flex-col justify-between pl-8 pr-24 py-12 gap-12 lg:flex-row">
           <p className="font-bold text-3xl">Bandage</p>
           <div className="flex gap-8">
             <Link href={"https://en.wikipedia.org/wiki/Facebook"}>
@@ -39,7 +88,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-
+        <hr />
         <div>
           <footer className="py-12 px-10 font-sans tracking-wide">
             <div className="flex flex-col-reverse lg:flex-row-reverse justify-evenly gap-8 font-semibold">
@@ -221,7 +270,6 @@ export default function Footer() {
             Made With Love by Alphaokorem, All Rights Reserved
           </p>
         </div>
-      </div>
-    </>
-  );
+        </>
+    )
 }

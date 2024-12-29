@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import AboutHeader from "../components/aboutPage/AboutHeader";
 import AboutFooter from "../components/aboutPage/AboutFooter";
 
@@ -108,13 +109,17 @@ const AboutUs = () => {
               <img src={member.pic} alt="" />
               <h2 className="text-xl font-bold">Username</h2>
               <p className="text-sm text-gray-500 font-bold">Profession</p>
-              <div className=" flex gap-4">
+              <div className="flex gap-4">
                 <img src="/about/fb.png" alt="" className=""/>
                 <img src="/about/insta.png" alt="" className=""/>
                 <img src="/about/twitter.png" alt="" className=""/>
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="text-center">
+          <Link href="team" className="text-blue-700 font-bold bg-gray-200 py-2 px-3 rounded-full">View All Members</Link>
         </div>
       </div>
 

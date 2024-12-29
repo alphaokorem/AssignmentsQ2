@@ -90,7 +90,7 @@ export default function Home() {
         </div>
       </div>
 
-      <Blogs />
+      <div id="blogs"><Blogs /></div>
       <Footer />
     </>
   );

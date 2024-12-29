@@ -11,7 +11,7 @@ export default function Blogs() {
   ];
   return (
     <>
-      <div className="mt-24 ">
+      <div className="mt-24">
         <div className="text-gray-500 flex flex-col justify-center items-center mb-24 lg:h-fit">
           <p className="text-sm text-blue-600 font-semibold">Practice Advice</p>
           <p className="text-[40px] w-[240px] text-center font-bold   lg:text-[45px] lg:w-[450px] text-gray-800">
@@ -26,7 +26,7 @@ export default function Blogs() {
           {blogData.map((item, index) => (
             <div
               key={index}
-              className="mx-8 my-2 shadow-md text-gray-500 w-[300px] md:w-[450px] lg:w-[300px] xl:w-[450px] bg-slate-50 hover:-translate-y-2 xl:mx-24"
+              className="mx-8 my-2 shadow-md text-gray-500 w-[300px] md:w-[450px] lg:w-[300px] lg:mx-4 bg-slate-50 hover:-translate-y-2 xl:mx-10"
             >
               <img src={`${item}`} alt="images" className="md:m-auto pt-5"/>
 

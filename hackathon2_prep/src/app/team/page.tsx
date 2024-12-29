@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import PricingFooter from "../components/pricingPage/PricingFooter";
 
-let teamMembers = [
+const teamMembers = [
   "/teamPage/a.png",
   "/teamPage/b.png",
   "/teamPage/c.png",

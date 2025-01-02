@@ -175,7 +175,7 @@ export default function ProductDetail({ params }: Props): JSX.Element {
         </h1>
         <hr className="w-4/5 border-black m-auto" />
         <br />
-        <div className="flex justify-center items-center max-xl:gap-4 gap-2 lg:">
+        <div className="flex justify-center flex-col items-center lg:flex-row max-xl:gap-4 gap-2 lg:">
           {items.map((i, index) => (
             <Link key={index} href={`products`}>
               <div className="overflow-hidden bg-white cursor-pointer hover:-translate-y-2 transition-all relative mb-20 ">
